@@ -20,7 +20,7 @@ import { ref } from 'vue'
 
 const checkAll = ref(false)
 const isIndeterminate = ref(true)
-const checkedCities = ref(['Shanghai', 'Beijing'])
+const checkedCities = ref(['Shanghai', 'Beijing', 'Guangzhou', 'Shenzhen'])
 const cities = ['Shanghai', 'Beijing', 'Guangzhou', 'Shenzhen']
 
 const handleCheckAllChange = (val: boolean) => {
